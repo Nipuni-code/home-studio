@@ -1,0 +1,57 @@
+[
+    {
+        "songName" : "Dewa Duwaniya",
+        "songLink" : "dewaduwaniya.html",
+        "image" : "Dewa Duwaniya.jpg",
+        "artist" : "Savish Senavirathna",
+        "type" : "Song",
+        "year" : "2023",
+        "time" : "2.32",
+        "language" : "Sinhala"
+    },{
+        "songName" : "Lihiniye",
+        "songLink" : "lihiniye.html",
+        "image" : "Lihiniye.jpg",
+        "artist" : "Ishara Diloshan",
+        "type" : "Song",
+        "year" : "2023",
+        "time" : "3.32",
+        "language" : "Sinhala"
+    },{
+        "songName" : "Awara Malwara",
+        "songLink" : "awaramalwara.html",
+        "image" : "Awara Malwara.jpg",
+        "artist" : "Savish Senavirathna",
+        "type" : "Song",
+        "year" : "2023",
+        "time" : "2.09",
+        "language" : "Sinhala"
+    },{
+        "songName" : "Athak Ganin Ath Noganin",
+        "songLink" : "athakganin.html",
+        "image" : "Athak Ganin.jpg",
+        "artist" : "Ishara Diloshan",
+        "type" : "Song",
+        "year" : "2023",
+        "time" : "2.57",
+        "language" : "Sinhala"
+    },{
+        "songName" : "Adare Tharamma Yashodara",
+        "songLink" : "yashodara.html",
+        "image" : "Yashodhara.jpg",
+        "artist" : "Savish Senavirathna",
+        "type" : "Song",
+        "year" : "2024",
+        "time" : "2.48",
+        "language" : "Sinhala"
+    },{
+        "songName" : "Mandarama",
+        "songLink" : "mandarama.html",
+        "image" : "Mandarama 2323.jpg",
+        "artist" : "Ishara Diloshan",
+        "type" : "Song",
+        "year" : "2023",
+        "time" : "3.03",
+        "language" : "Sinhala"
+    }
+]
