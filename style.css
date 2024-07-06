@@ -2527,6 +2527,113 @@ body.dark .switch1::before {
     width: 600px;
     padding: 20px;
   }
+
+  /* ?==== lyrics ==== */
+  .sidebar.close~.lyrics {
+    left: 0;
+    width: 100%;
+  }
+
+    .mainlyrics {
+      display: flex;
+      flex-direction: column;
+      height: 500px;
+      padding: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .lyricscontent {
+      width: 180px;
+      height: 180px;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .lyricsabout h1 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .lyricsabout h4 {
+      font-size: 1rem;
+      text-align: center;
+    }
+  
+    .lyricsDetails ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .sbtns {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .songLyrics {
+      display: grid;
+      grid-template-columns: auto;
+      place-items: center;
+    }
+  
+    .songLyrics .slyric {
+      padding: 20px;
+      margin-left: 0;
+      text-align: center;
+      z-index: 2;
+    }
+  
+    .songLyrics .slyric p {
+      margin-top: 30px;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  
+    .suggust {
+      padding: 0;
+      height: 82vh;
+    }
+  
+    .suggust::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .suggust:hover::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .suggust .suggust-card a {
+      min-width: 450px;
+      margin-left: 0;
+    }
+  
+    .suggust .suggust-card:last-child {
+      margin-bottom: 50px;
+    }
+  
+    .sug-cont h3 {
+      font-size: 1rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 200px;
+    }
+  
+    .sug-cont h4 {
+      font-size: 0.8rem;
+    }
+  
+    .sug-cont ul {
+      font-size: 0.7rem;
+    }
+  
+    .sug-play {
+      position: absolute;
+      right: 370px;
+    }
+  
 }
 
 @media screen and (max-width: 986px) {
@@ -2790,112 +2897,6 @@ body.dark .switch1::before {
     right: 0;
     top: -25px;
   }
-
-  /* ?==== lyrics ==== */
-  .sidebar.close~.lyrics {
-    left: 0;
-    width: 100%;
-  }
-
-    .mainlyrics {
-      display: flex;
-      flex-direction: column;
-      height: 500px;
-      padding: 30px;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .lyricscontent {
-      width: 180px;
-      height: 180px;
-      margin-left: 0;
-      margin-top: 20px;
-    }
-  
-    .lyricsabout h1 {
-      font-size: 1.5rem;
-      text-align: center;
-    }
-  
-    .lyricsabout h4 {
-      font-size: 1rem;
-      text-align: center;
-    }
-  
-    .lyricsDetails ul {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .sbtns {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .songLyrics {
-      display: grid;
-      grid-template-columns: auto;
-      place-items: center;
-    }
-  
-    .songLyrics .slyric {
-      padding: 20px;
-      margin-left: 0;
-      text-align: center;
-      z-index: 2;
-    }
-  
-    .songLyrics .slyric p {
-      margin-top: 30px;
-      font-size: 1rem;
-      font-weight: 500;
-    }
-  
-    .suggust {
-      padding: 0;
-      height: 82vh;
-    }
-  
-    .suggust::-webkit-scrollbar {
-      display: none;
-    }
-  
-    .suggust:hover::-webkit-scrollbar {
-      display: none;
-    }
-  
-    .suggust .suggust-card a {
-      min-width: 450px;
-      margin-left: 0;
-    }
-  
-    .suggust .suggust-card:last-child {
-      margin-bottom: 50px;
-    }
-  
-    .sug-cont h3 {
-      font-size: 1rem;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      width: 200px;
-    }
-  
-    .sug-cont h4 {
-      font-size: 0.8rem;
-    }
-  
-    .sug-cont ul {
-      font-size: 0.7rem;
-    }
-  
-    .sug-play {
-      position: absolute;
-      right: 370px;
-    }
   
 
   /* ?==== services ==== */
